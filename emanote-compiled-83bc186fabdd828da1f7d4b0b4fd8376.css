@@ -92,15 +92,15 @@ h1 {
   font-size: inherit;
   font-weight: inherit;
 }
+h1, p {
+  margin: 0;
+}
 h1, p, h2 {
   margin: 0;
 }
 h1, h2 {
   font-size: inherit;
   font-weight: inherit;
-}
-h1, p {
-  margin: 0;
 }
 img {
   border-style: solid;
@@ -344,13 +344,13 @@ ul {
   font-size: 3rem;
   line-height: 1;
 }
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 .text-xl {
   font-size: 1.25rem;
@@ -476,14 +476,14 @@ ul {
 .pb-2 {
   padding-bottom: 0.5rem;
 }
+.pl-2 {
+  padding-left: 0.5rem;
+}
 .pt-1 {
   padding-top: 0.25rem;
 }
 .pl-4 {
   padding-left: 1rem;
-}
-.pl-2 {
-  padding-left: 0.5rem;
 }
 .text-center {
   text-align: center;
@@ -504,10 +504,6 @@ ul {
   --tw-text-opacity: 1;
   color: rgba(55, 65, 81, var(--tw-text-opacity));
 }
-.text-gray-400 {
-  --tw-text-opacity: 1;
-  color: rgba(156, 163, 175, var(--tw-text-opacity));
-}
 .text-white {
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
@@ -519,6 +515,10 @@ ul {
 .text-red-600 {
   --tw-text-opacity: 1;
   color: rgba(220, 38, 38, var(--tw-text-opacity));
+}
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgba(156, 163, 175, var(--tw-text-opacity));
 }
 .text-gray-600 {
   --tw-text-opacity: 1;
