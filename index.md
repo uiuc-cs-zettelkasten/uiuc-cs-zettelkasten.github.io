@@ -1,4 +1,4 @@
-# Emanote Template
+# UIUC Computer Science Zettelkasten
 
 A Git repo for users to get started with [Emanote], with GitHub Pages deployment. See [[README|README]].
 
