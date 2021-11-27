@@ -4,14 +4,14 @@
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1' />
   <title>
-    Test Page – UIUC Computer Science Zettelkasten
+    style-guide – UIUC Computer Science Zettelkasten
   </title>
   
     
       <meta property='og:description' content />
       <meta property='og:site_name' content='UIUC Computer Science Zettelkasten' />
       <meta property='og:type' content='website' />
-      <meta property='og:title' content='Test Page' />
+      <meta property='og:title' content='style-guide' />
     
     
       <base href='/' />
@@ -157,7 +157,11 @@
             
               <!-- Variable bindings for this tree-->
   
-  
+    
+      
+    
+    
+
 
 
   
@@ -170,12 +174,12 @@
     
     
       <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
-        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
         </path>
       </svg>
-      
+    
   
-    <a class='font-bold text-orange-600 hover:underline truncate' title='Test Page' href='test-page'>
+    <a class='hover:underline truncate' title='Test Page' href='test-page'>
       Test Page
     </a>
     
@@ -231,11 +235,7 @@
             
               <!-- Variable bindings for this tree-->
   
-    
-      
-    
-    
-
+  
 
 
   
@@ -248,12 +248,12 @@
     
     
       <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
-        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'>
         </path>
       </svg>
-    
+      
   
-    <a class='hover:underline truncate' title='style-guide' href='style-guide'>
+    <a class='font-bold text-orange-600 hover:underline truncate' title='style-guide' href='style-guide'>
       style-guide
     </a>
     
@@ -277,14 +277,79 @@
           <main class='px-4 py-4'>
             <h1 class='flex items-end justify-center mb-4 p-3 bg-orange-100 text-5xl font-extrabold text-black rounded'>
   <a class='z-40 tracking-tighter '>
-    Test Page
+    style-guide
   </a>
 </h1>
             <article class='overflow-auto'>
   <!-- What goes in this file will appear on top of note body-->
+  <div xmlhtmlRaw><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
+</div><h1 id='style-guide' class='pb-2 mb-2 text-5xl font-bold text-center'>Style Guide</h1><h2 id='1-what-is-uiuc-csxyz' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>1. What is uiuc-cs.xyz?</h2>
+    <p class='mb-3'>
+      <strong><a href='http://uiuc-cs.xyz' class='text-orange-600 hover:underline' target='_blank' rel='noopener'>uiuc-cs.xyz</a> is a collaborative <a href='https://zettelkasten.de/posts/overview/' class='text-orange-600 hover:underline' target='_blank' rel='noopener'>zettelkasten</a>. It is intended to be a comprehensive resource regarding <em>all</em> material covered in all CS and CS-adjacent courses, as well as deeper computer science topics not covered by UIUC’s curriculum.</strong>
+    </p>
   
     <p class='mb-3'>
-      This is a test page. If it worked, you’ll see the backlink from index.md below.
+      Each page consists of an atomic topic.
+    </p>
+  
+    <blockquote class='py-0.5 px-4 mb-3 italic border-l-4 bg-gray-50 text-gray-600 border-gray-400 quote'>
+      
+    <p class='mb-3'>
+      <em>atomic</em>: of or forming a single irreducible unit or component in a larger system
+    </p>
+  
+    </blockquote>
+  
+    <p class='mb-3'>
+      For example, a page on linked lists would be an atomic topic. A page on setting up Docker would be an atomic topic. Each page should function essentially as a Wikipedia article. It should be able to link to other pages (see <strong>4. Syntax</strong>) to foster a greater understanding of how topics link together.
+    </p>
+  
+    <p class='mb-3'>
+      Each page is a living document, meaning that it can be updated at any time, most importantly to reflect new content that draws upon its topic. Feel free to make any change that you deem appropriate. For large-scale changes, check with [whatever platform editors use to communicate, likely a Discord server].
+    </p>
+  
+    <p class='mb-3'>
+      The GitHub can be found <a href='https://github.com/uiuc-cs-zettelkasten/uiuc-cs-zettelkasten.github.io' class='text-orange-600 hover:underline' target='_blank' rel='noopener'>here</a>.
+    </p>
+  <h2 id='2-user-expectations' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>2. User Expectations</h2>
+    <p class='mb-3'>
+      If you use this wiki as a resource, you should try to contribute by either creating new pages or updating additional pages with new information or more examples. You can contribute by [TODO: explain git].
+    </p>
+  <h2 id='3-syntax' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>3. Syntax</h2><h3 id='a-basics' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>a. Basics</h3>
+    <p class='mb-3'>
+      This platform uses <a href='https://www.markdownguide.org/basic-syntax/' class='text-orange-600 hover:underline' target='_blank' rel='noopener'>markdown</a>, which you may have used in writing a readme file for a project or in some other circumstance. I would recommend reading up on markdown if you’re not familiar; it’s very easy to pick up.
+    </p>
+  <h3 id='b-linking' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>b. Linking</h3>
+    <p class='mb-3'>
+      To create a link to another page, find the file name in the GitHub repo, and then in your markdown file, type either <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>[[file-name]]</code> or <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>[[file-name|Desired Display Text]]</code>. To link to another page, type <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>[Desired Display Text](url)</code>.
+    </p>
+  <h3 id='c-equations' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>c. Equations</h3>
+    <p class='mb-3'>
+      This platform uses <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>mathjax</code> libraries, meaning that we can use a pair of to insert equations. It uses similar syntax to LaTeX—not sure if they’re identical. You can insert them in-line, like this: \(F_x(x)\) as <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>\\( F_X(x) \))</code>, or you can insert them as a block, like this:
+    </p>
+  
+    <p class='mb-3'>
+      <span class='math display'>$$r(t) = 100\cos(t)\hat{\imath} + 50\sin(t)\hat{\jmath} + \left(-\frac{162.25t}{2\pi} + 100\right)\hat{k}$$</span>
+    </p>
+  
+    <p class='mb-3'>
+      as <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>$$ r(t) = 100\cos(t)\hat{\imath} + 50\sin(t)\hat{\jmath} + \left(-\frac{162.25t}{2\pi} + 100\right)\hat{k} $$</code>. For LaTeX documentation, I’ll direct you to <a href='http://tug.ctan.org/info/undergradmath/undergradmath.pdf' class='text-orange-600 hover:underline' target='_blank' rel='noopener'>this cheat sheet</a>.
+    </p>
+  <h2 id='4-page-formatting' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>4. Page Formatting</h2>
+    <p class='mb-3'>
+      To make a page, add a markdown file to the GitHub repository. [To do: tell users where to put the files]
+    </p>
+  
+    <p class='mb-3'>
+      Just like a Wikipedia article, your page should start off with a section defining the topic. Then, it should go over all of the details you’ve covered in class. Then, it should give some examples, perhaps ones that were covered in class.
+    </p>
+  <h2 id='5-page-tagging' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>5. Page Tagging</h2>
+    <p class='mb-3'>
+      [TODO: fill this out]
+    </p>
+  <h2 id='6-non-course-content' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>6. Non-course content</h2>
+    <p class='mb-3'>
+      You should also create pages for CS-related stuff that isn’t covered in classes.
     </p>
   
   <!-- What goes in this file will appear below the note body-->
@@ -292,36 +357,6 @@
             <div class='flex flex-col lg:flex-row lg:space-x-2'>
               
               
-  <div class='flex-1 p-4 mt-8 bg-gray-100 rounded'>
-    <header class='mb-2 text-xl font-semibold text-gray-500'>Links to this page</header>
-    <ul class='space-y-1'>
-      
-        <li>
-          <a class='text-orange-600 font-bold hover:bg-orange-50' href=''>
-            UIUC Computer Science Zettelkasten
-          </a>
-          
-            <div class='mb-4 overflow-auto text-sm text-gray-500'>
-  
-    <div class='pl-2 mt-2 border-l-2 border-orange-200 hover:border-orange-500'>
-      <div><p>Maybe this way: <a href='test-page' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Test Page</a></p></div>
-    </div>
-  
-    <div class='pl-2 mt-2 border-l-2 border-orange-200 hover:border-orange-500'>
-      <div><p>This is a correct wiki-style link: <a href='test-page' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Test Page</a></p></div>
-    </div>
-  
-    <div class='pl-2 mt-2 border-l-2 border-orange-200 hover:border-orange-500'>
-      <div><p>This is a markdown-style link: <a href='test-page' class='text-gray-600 font-bold hover:bg-gray-50'>Name of the link</a></p></div>
-    </div>
-  
-</div>
-          
-        </li>
-      
-    </ul>
-  </div>
-
             </div>
             
   <section class='flex flex-wrap items-end justify-center my-4 space-x-2 space-y-2 font-mono text-sm'>
