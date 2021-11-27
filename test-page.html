@@ -4,14 +4,14 @@
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1' />
   <title>
-    emanote-template – UIUC Computer Science Zettelkasten
+    Test Page – UIUC Computer Science Zettelkasten
   </title>
   
     
       <meta property='og:description' content />
       <meta property='og:site_name' content='UIUC Computer Science Zettelkasten' />
       <meta property='og:type' content='website' />
-      <meta property='og:title' content='emanote-template' />
+      <meta property='og:title' content='Test Page' />
     
     
       <base href='/' />
@@ -157,6 +157,41 @@
             
               <!-- Variable bindings for this tree-->
   
+  
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'>
+        </path>
+      </svg>
+      
+  
+    <a class='font-bold text-orange-600 hover:underline truncate' title='Test Page' href='test-page'>
+      Test Page
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+  
+</div>
+            
+              <!-- Variable bindings for this tree-->
+  
     
       
     
@@ -179,42 +214,7 @@
       </svg>
     
   
-    <a class='hover:underline truncate' title='Test Page' href='test-page'>
-      Test Page
-    </a>
-    
-      
-  </div>
-
-  <!-- Node's children forest, displayed only on active trees
-    TODO: Use <details> to toggle visibility?
-  -->
-  
-    
-  
-</div>
-            
-              <!-- Variable bindings for this tree-->
-  
-  
-
-
-  
-
-
-<!-- Rendering of this tree -->
-<div class='pl-2'>
-  <!-- Node's rootLabel-->
-  <div class='flex items-center my-2 space-x-2 justify-left'>
-    
-    
-      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
-        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'>
-        </path>
-      </svg>
-      
-  
-    <a class='font-bold text-orange-600 hover:underline truncate' title='emanote-template' href='README'>
+    <a class='hover:underline truncate' title='emanote-template' href='README'>
       emanote-template
     </a>
     
@@ -238,42 +238,14 @@
           <main class='px-4 py-4'>
             <h1 class='flex items-end justify-center mb-4 p-3 bg-orange-100 text-5xl font-extrabold text-black rounded'>
   <a class='z-40 tracking-tighter '>
-    emanote-template
+    Test Page
   </a>
 </h1>
             <article class='overflow-auto'>
   <!-- What goes in this file will appear on top of note body-->
   
     <p class='mb-3'>
-      Notebook template for <a href='https://github.com/srid/emanote' class='text-orange-600 hover:underline' target='_blank' rel='noopener'>Emanote</a>, with VSCode support, to easily get started with publishing a GitHub Pages website using Emanote out of plain-text Markdown notes.
-    </p>
-  
-    <p class='mb-3'>
-      See <a href='https://note.ema.srid.ca/resources/emanote-template' class='text-orange-600 hover:underline' target='_blank' rel='noopener'>https://note.ema.srid.ca/resources/emanote-template</a> for details.
-    </p>
-  <h2 id='using-this-template' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Using this template</h2>
-    <p class='mb-3'>
-      Click the “Use this template” green button on Github, and in the resulting repository make the following modifications,
-    </p>
-  
-    <ul class='my-3 ml-6 space-y-1 list-decimal list-inside'>
-      
-        <li>
-          Change <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>index.yaml</code> to use your site’s title (and set the same in <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>index.md</code>)
-        </li>
-      
-        <li>
-          Change <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>.deploy/github/index.yaml</code> to change the <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>baseUrl</code> (if your repository is named differently or you are using a CNAME). If you are using CNAME (with no sub-path), then you may get rid of the <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>.deploy/github</code> layer entirely (be sure to update <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>publish.yaml</code> accordingly).
-        </li>
-      
-        <li>
-          Delete <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>README.md</code> (this file)
-        </li>
-      
-    </ul>
-  
-    <p class='mb-3'>
-      Checkout <a href='https://note.ema.srid.ca/examples' class='text-orange-600 hover:underline' target='_blank' rel='noopener'>examples</a> and <a href='https://note.ema.srid.ca/demo' class='text-orange-600 hover:underline' target='_blank' rel='noopener'>demo</a> for next steps.
+      This is a test page. If it worked, you’ll see the backlink from index.md below.
     </p>
   
   <!-- What goes in this file will appear below the note body-->
