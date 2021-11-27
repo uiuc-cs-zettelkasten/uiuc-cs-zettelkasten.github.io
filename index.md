@@ -17,3 +17,7 @@ This is some math:
 $$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 
 (Dylan) testing inline math: $ x = y^2 $
+
+(Dylan) testing inline math: \( x = y^2 )\
+
+(Dylan) testing inline math: (\ $ x = y^2 \)
