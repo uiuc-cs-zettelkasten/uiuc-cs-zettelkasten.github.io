@@ -21,7 +21,7 @@
 
   
   <!-- CSSSTART -->
-	<link rel="stylesheet" href="emanote-compiled-8e570fe8e73f3e7ad81ec93d394dc875.css" />
+	<link rel="stylesheet" href="emanote-compiled-7049312b433c6e004967114cf1bb857c.css" />
   <!-- CSSEND -->
 
   <!-- Heist error element -->
@@ -239,7 +239,23 @@
   <div xmlhtmlRaw><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
 </div>
     <p class='mb-3'>
+      This is a markdown-style link: <a href='test-page' class='text-orange-600 font-bold hover:underline'>Name of the link</a>
+    </p>
+  
+    <p class='mb-3'>
       This is a test. This is a wiki-style link: <span title='Link is broken'><s>[[Test Page]]</s>❌</span>
+    </p>
+  
+    <p class='mb-3'>
+      This is a correct wiki-style link: <a href='test-page' class='text-orange-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'>Test Page</a>
+    </p>
+  
+    <p class='mb-3'>
+      Maybe this way: <a href='test-page' class='text-orange-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'>Test Page</a>
+    </p>
+  
+    <p class='mb-3'>
+      I think this works also: <span title='Link is broken'><s>[[Test Page|test-page]]</s>❌</span>
     </p>
   
     <p class='mb-3'>
