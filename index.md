@@ -1,5 +1,11 @@
 # UIUC Computer Science Zettelkasten
 
-A Git repo for users to get started with [Emanote], with GitHub Pages deployment. See [[README|README]].
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+</script>
 
-[Emanote]: https://note.ema.srid.ca/
+This is a test.
+
+This is some math:
+
+$$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
