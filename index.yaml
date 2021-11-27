@@ -2,10 +2,10 @@
 # https://github.com/srid/emanote/blob/master/default/index.yaml
 
 page:
-  siteTitle: Emanote Template
+  siteTitle: UIUC Computer Science Zettelkasten
 
 template:
-  theme: red
+  theme: orange
   sidebar:
     collapsed: false
   urlStrategy: pretty
