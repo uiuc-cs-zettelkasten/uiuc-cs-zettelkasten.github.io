@@ -87,6 +87,14 @@ html {
   font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   line-height: 1.5;
 }
+h1, h2, p {
+  margin: 0;
+}
+h1, h2 {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+}
 h1, h2, p, blockquote, h3 {
   margin: 0;
 }
@@ -94,20 +102,13 @@ h1, h2, h3 {
   font-size: inherit;
   font-weight: inherit;
 }
-h1 {
-  margin: 0;
-  font-size: inherit;
-  font-weight: inherit;
-}
 h1, p {
   margin: 0;
 }
-h1, p, h2 {
-  margin: 0;
-}
-h1, h2 {
+h1 {
   font-size: inherit;
   font-weight: inherit;
+  margin: 0;
 }
 img {
   border-style: solid;
@@ -198,9 +199,21 @@ ul {
   --tw-bg-opacity: 1;
   background-color: rgba(255, 237, 213, var(--tw-bg-opacity));
 }
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+}
+.hover\:bg-gray-50:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
+}
 .bg-gray-700 {
   --tw-bg-opacity: 1;
   background-color: rgba(55, 65, 81, var(--tw-bg-opacity));
+}
+.hover\:bg-orange-50:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 247, 237, var(--tw-bg-opacity));
 }
 .bg-gray-300 {
   --tw-bg-opacity: 1;
@@ -209,18 +222,6 @@ ul {
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
-}
-.bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
-}
-.hover\:bg-orange-50:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgba(255, 247, 237, var(--tw-bg-opacity));
-}
-.hover\:bg-gray-50:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
 }
 .border-gray-400 {
   --tw-border-opacity: 1;
@@ -237,6 +238,9 @@ ul {
 .rounded {
   border-radius: 0.25rem;
 }
+.rounded-lg {
+  border-radius: 0.5rem;
+}
 .border-b-2 {
   border-bottom-width: 2px;
 }
@@ -245,6 +249,9 @@ ul {
 }
 .border-l-2 {
   border-left-width: 2px;
+}
+.border-t-2 {
+  border-top-width: 2px;
 }
 .cursor-pointer {
   cursor: pointer;
@@ -361,30 +368,24 @@ ul {
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
 .leading-relaxed {
   line-height: 1.625;
-}
-.list-inside {
-  list-style-position: inside;
-}
-.list-decimal {
-  list-style-type: decimal;
 }
 .mx-auto {
   margin-left: auto;
@@ -402,15 +403,8 @@ ul {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
 .mb-4 {
   margin-bottom: 1rem;
-}
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 .mt-6 {
   margin-top: 1.5rem;
@@ -424,14 +418,17 @@ ul {
 .mb-8 {
   margin-bottom: 2rem;
 }
-.ml-2 {
-  margin-left: 0.5rem;
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 .mt-8 {
   margin-top: 2rem;
 }
-.ml-6 {
-  margin-left: 1.5rem;
+.mr-2 {
+  margin-right: 0.5rem;
+}
+.ml-2 {
+  margin-left: 0.5rem;
 }
 .hover\:opacity-80:hover {
   opacity: 0.8;
@@ -500,6 +497,9 @@ ul {
 .pb-2 {
   padding-bottom: 0.5rem;
 }
+.pt-0\.5 {
+  padding-top: 0.125rem;
+}
 .pt-1 {
   padding-top: 0.25rem;
 }
@@ -508,6 +508,9 @@ ul {
 }
 .text-center {
   text-align: center;
+}
+.text-right {
+  text-align: right;
 }
 .text-gray-700 {
   --tw-text-opacity: 1;
@@ -540,6 +543,10 @@ ul {
 .text-black {
   --tw-text-opacity: 1;
   color: rgba(0, 0, 0, var(--tw-text-opacity));
+}
+.hover\:text-orange-500:hover {
+  --tw-text-opacity: 1;
+  color: rgba(249, 115, 22, var(--tw-text-opacity));
 }
 .text-gray-600 {
   --tw-text-opacity: 1;
