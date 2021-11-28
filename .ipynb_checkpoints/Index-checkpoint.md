@@ -20,4 +20,3 @@ $$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 
 (Dylan) testing inline math: \\( x = y^2 \\)
 
-Testing recursive link method: [[test-inner-folder]]
