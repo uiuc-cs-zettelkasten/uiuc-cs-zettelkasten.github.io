@@ -6,6 +6,8 @@
 
 [[CS 124|CS 124: Introduction to Computer Science I]]
 
+[[CS 126|CS 126: Software Design Studio]]
+
 [[CS 128|CS 128: Introcuction to Computer Science II]]
 
 [[CS 173|CS 173: Discrete Structures]]
